@@ -1,0 +1,12 @@
+{
+    "name": "FIWAREChallenge",
+    "description": "FIWARE Challenge 2018 Vienna",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_FIWARE_Challenge.local.json",
+            "credentialsFile": "flows_FIWARE_Challenge.local_cred.json"
+        }
+    }
+}
