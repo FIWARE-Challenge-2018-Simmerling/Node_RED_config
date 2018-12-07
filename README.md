@@ -56,6 +56,16 @@ The project will load.
 
 To actually run the demo, you have to manually change the authentication token in "Add authentication".  To do that, you need to have have a `client_id` and `client_secret` to the `https://smartdata.wien/api/v1/access_token` service.
 
+6. Testing
+
+* Have to have Orion running at `http://localhost:1026`.
+* Click Start bike subscription.  That registers a subscription to Orion.
+* Open a webpage at `/demo` of your Node RED, e.g. http://127.0.0.1:1880/demo`
+* Click Update on the demo web page
+* You should see the changed data at the debug output of Show changes
+
+Really getting that far may take some time and tinkering.  This is a demo, and you are likely to have demo effects.
+
 ### License
 
 This code has been explicitly placed in public domain.  You may use it in whatever way you want to.
